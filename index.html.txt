@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARO Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="saro-logo.png" alt="SARO Logo">
+    </div>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#international">International Development</a>
+        <a href="#projects">Projects</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>SARO Chamber of Commerce</h1>
+    <p>Advancing responsible trade, investment, and international development between South Africa and Romania.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>SARO Chamber of Commerce is a bilateral organisation dedicated to strengthening commercial, institutional, and international development cooperation between South Africa and Romania. We connect public authorities, private companies, and development partners to advance responsible trade, investment, and professional standards across both markets.</p>
+</section>
+
+<section id="international">
+    <h2>International Development</h2>
+    <p>SARO’s work contributes to international development outcomes by supporting inclusive economic growth, responsible investment, institutional cooperation, and sustainable sector development. Our bilateral mandate aligns with global development priorities in governance, private-sector support, climate-smart sectors, digital transformation, and skills development.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Bilateral Market Access Programme:</strong> Supporting companies entering South African and Romanian markets.</li>
+        <li><strong>Institutional Cooperation Platform:</strong> Facilitating dialogue between ministries, chambers, and development partners.</li>
+        <li><strong>Sector Development Missions:</strong> Delegations and workshops in energy, agriculture, digital economy, and logistics.</li>
+        <li><strong>Responsible Business Initiative:</strong> Promoting ethical business conduct and professional standards.</li>
+    </ul>
+</section>
+
+<section id="partners">
+    <h2>Partners</h2>
+    <p>SARO collaborates with public authorities, private companies, development agencies, and institutional stakeholders across South Africa, Romania, and the EU. Our partnerships support sustainable development, responsible investment, and bilateral cooperation.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        
+        <label>Your Name</label>
+        <input type="text" name="name" required>
+
+        <label>Your Email</label>
+        <input type="email" name="email" required>
+
+        <label>Your Message</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p><strong>Direct Contact:</strong><br>
+    <strong>Daniel Lucea</strong><br>
+    Director — SARO Chamber of Commerce<br>
+    Email: <a href="mailto:saro.diplomatic@gmail.com">saro.diplomatic@gmail.com</a><br>
+    Phone: +40 734 393 705<br>
+    Locations: Bucharest / Johannesburg<br>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 SARO Chamber of Commerce</p>
+</footer>
+
+</body>
+</html>
